@@ -1,0 +1,96 @@
+body {
+background-color: #797979;
+color: #ffffff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background:#6d0303;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.header .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.cta-button {
+    background: #ffffff;
+    color: #bb0000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #ffffff;
+}
+
+.features {
+    padding: 40px 0;
+    background: #5e0000;
+    background-image: url(pic/gelik.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+}
+
+.feature {
+    margin: 20px 0;
+}
+
+.contact {
+    padding: 40px 0;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.contact button {
+    background: #b80600;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background: #00b309;
+}
+img{
+    height: 200px;
+
+}
